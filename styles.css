@@ -859,6 +859,28 @@ img {
     font-style: italic;
 }
 
+.timeline-work-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.work-link-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--gradient-button);
+    color: var(--white);
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: var(--transition-fast);
+}
+
+.work-link-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}
+
 /* ===== Portfolio Section ===== */
 .portfolio {
     background: var(--white);
