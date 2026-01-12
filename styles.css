@@ -1478,3 +1478,15 @@ img {
         padding: 1.5rem;
     }
 }
+
+/* Location Link */
+.location-link {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.location-link:hover {
+    color: var(--gold);
+    text-decoration: underline;
+}
