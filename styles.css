@@ -861,8 +861,24 @@ img {
 
 .timeline-work-link {
     display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.work-section {
+    display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 0.5rem;
+}
+
+.work-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 0.5rem;
 }
 
 .work-link-btn {
@@ -879,6 +895,21 @@ img {
 .work-link-btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-glow);
+}
+
+.doc-btn {
+    background: linear-gradient(135deg, #4A5568 0%, #2D3748 100%);
+}
+
+.blog-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+}
+
+.blog-btn:hover {
+    background: var(--gold);
+    color: var(--brown-900);
 }
 
 /* ===== Portfolio Section ===== */
